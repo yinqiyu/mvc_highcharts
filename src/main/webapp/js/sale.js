@@ -9,7 +9,7 @@ $(function (){
         //alert(data)
         //遍历对象
         for (var i = 0;i<data.length;i++){
-            //得到每个员工的名字和工资
+            //得到每种商品的的名字和价格
             names[i] = data[i].name;
             sales[i] = data[i].amount;
             // alert(data[i].name);
